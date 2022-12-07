@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e02d0b2-ac70-4f06-93f0-ea9206eade49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/utils/AndroidActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/FormPage.java" afterDir="false" />
     </list>
@@ -106,7 +107,7 @@
       <workItem from="1669492241070" duration="1066000" />
       <workItem from="1670376299181" duration="469000" />
       <workItem from="1670377090815" duration="3679000" />
-      <workItem from="1670455158340" duration="1365000" />
+      <workItem from="1670455158340" duration="2030000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669492810848</created>
@@ -143,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670456068568</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Create Action methods in the Pageobject file to drive into tests">
+      <created>1670456658146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670456658146</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
