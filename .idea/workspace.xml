@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e02d0b2-ac70-4f06-93f0-ea9206eade49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ApiDemos-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/General-Store.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/FormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,8 +44,8 @@
     "last_opened_file_path": "D:/WORK/PROYECTOS/UDEMY/appium-mobile-testing/appium-framework-design/src/test/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -46,7 +54,24 @@
       <recent name="D:\WORK\PROYECTOS\UDEMY\appium-mobile-testing\appium-framework-design\src\test\java\com\devstromo" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.EcommerceTest.fillFormTCTest">
+    <configuration name="EcommerceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="appium-framework-design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.EcommerceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EcommerceTest.fillFormTCTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="appium-framework-design" />
       <extension name="coverage">
@@ -68,6 +93,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.EcommerceTest.fillFormTCTest" />
+        <item itemvalue="TestNG.EcommerceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +105,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669492237549</updated>
-      <workItem from="1669492241070" duration="947000" />
+      <workItem from="1669492241070" duration="1066000" />
+      <workItem from="1670376299181" duration="469000" />
+      <workItem from="1670377090815" duration="2919000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669492810848</created>
@@ -88,14 +116,24 @@
       <option name="project" value="LOCAL" />
       <updated>1669492810848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add apps">
+      <created>1669493208077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669493208077</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add apps" />
+    <option name="LAST_COMMIT_MESSAGE" value="add apps" />
   </component>
 </project>

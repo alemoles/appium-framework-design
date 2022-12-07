@@ -14,6 +14,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import com.devstromo.pageObjects.android.FormPage;
+
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.nativekey.KeyEvent;
 
@@ -21,6 +23,7 @@ public class EcommerceTest extends BaseTest {
 
     @Test(description = "Test Case in Filling the form details for shopping")
     public void fillFormTCTest() {
+        FormPage page = new FormPage(driver);
         driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/nameField"))
             .sendKeys("Ale M");
         driver.hideKeyboard();
