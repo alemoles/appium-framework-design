@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e02d0b2-ac70-4f06-93f0-ea9206eade49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/FormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/FormPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +43,8 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "e7196310121873facd3ad34fa3c44676"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -107,7 +106,8 @@
       <updated>1669492237549</updated>
       <workItem from="1669492241070" duration="1066000" />
       <workItem from="1670376299181" duration="469000" />
-      <workItem from="1670377090815" duration="2919000" />
+      <workItem from="1670377090815" duration="3679000" />
+      <workItem from="1670455158340" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669492810848</created>
@@ -123,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669493208077</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Introduction to Page object Factory and design Implementation idea">
+      <created>1670381170848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670381170848</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Introduction to Page object Factory and design Implementation idea">
+      <created>1670381300292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670381300292</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +148,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="add apps" />
-    <option name="LAST_COMMIT_MESSAGE" value="add apps" />
+    <MESSAGE value="Introduction to Page object Factory and design Implementation idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduction to Page object Factory and design Implementation idea" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 package com.devstromo.pageObjects.android;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
@@ -24,4 +25,19 @@ public class FormPage {
     @AndroidFindBy(xpath = "//android.widget.RadioButton[@text='Female']")
     private WebElement femaleOption;
 
+    @AndroidFindBy(xpath = "//android.widget.RadioButton[@text='Male']")
+    private WebElement maleOption;
+
+    public void setNameField(String name) {
+        nameField.sendKeys(name);
+        driver.hideKeyboard();
+    }
+
+    public void setGender(String gender) {
+        if (gender.contains("female")) {
+            femaleOption.click();
+        } else {
+            maleOption.click();
+        }
+    }
 }

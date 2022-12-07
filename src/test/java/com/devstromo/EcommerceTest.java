@@ -24,11 +24,8 @@ public class EcommerceTest extends BaseTest {
     @Test(description = "Test Case in Filling the form details for shopping")
     public void fillFormTCTest() {
         FormPage page = new FormPage(driver);
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/nameField"))
-            .sendKeys("Ale M");
-        driver.hideKeyboard();
-        driver.findElement(AppiumBy.xpath("//android.widget.RadioButton[@text='Female']"))
-            .click();
+        page.setNameField("Ale M");
+        page.setGender("female");
         driver.findElement(AppiumBy.id("android:id/text1"))
             .click();
         driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
