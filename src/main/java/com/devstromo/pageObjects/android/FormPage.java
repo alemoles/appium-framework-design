@@ -20,4 +20,8 @@ public class FormPage {
     private WebElement nameField;
     //  driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/nameField"))
     //            .sendKeys("Ale M");
+
+    @AndroidFindBy(xpath = "//android.widget.RadioButton[@text='Female']")
+    private WebElement femaleOption;
+
 }
