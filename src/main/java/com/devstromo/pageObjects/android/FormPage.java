@@ -28,6 +28,9 @@ public class FormPage {
     @AndroidFindBy(xpath = "//android.widget.RadioButton[@text='Male']")
     private WebElement maleOption;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Argentina']")
+    private WebElement country;
+
     public void setNameField(String name) {
         nameField.sendKeys(name);
         driver.hideKeyboard();
