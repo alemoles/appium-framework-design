@@ -6,6 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.devstromo.utils.AndroidActions;
 
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -34,8 +35,8 @@ public class FormPage extends AndroidActions {
     @AndroidFindBy(id = "android:id/text1")
     private WebElement countrySelection;
 
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Argentina']")
-    private WebElement country;
+    @AndroidFindBy(id = "com.androidsample.generalstore:id/btnLetsShop")
+    private WebElement shopButton;
 
     public void setNameField(String name) {
         nameField.sendKeys(name);
@@ -48,5 +49,16 @@ public class FormPage extends AndroidActions {
         } else {
             maleOption.click();
         }
+    }
+
+    public void setCountrySelection(String countryName) {
+        countrySelection.click();
+        scrollToText(countryName);
+        driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='" + countryName + "']"))
+            .click();
+    }
+
+    public void submitForm() {
+        shopButton.click();
     }
 }

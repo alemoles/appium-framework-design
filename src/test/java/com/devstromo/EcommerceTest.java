@@ -26,13 +26,8 @@ public class EcommerceTest extends BaseTest {
         FormPage page = new FormPage(driver);
         page.setNameField("Ale M");
         page.setGender("female");
-        driver.findElement(AppiumBy.id("android:id/text1"))
-            .click();
-        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
-        driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Argentina']"))
-            .click();
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnLetsShop"))
-            .click();
+        page.setCountrySelection("Argentina");
+        page.submitForm();
     }
 
     @Test(description = "Verifying toast messages for error validations")
