@@ -13,6 +13,7 @@ import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import com.devstromo.pageObjects.android.FormPage;
 import com.google.common.collect.ImmutableMap;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -24,6 +25,8 @@ public class BaseTest {
 
     protected AndroidDriver driver;
     protected AppiumDriverLocalService service;
+
+    protected FormPage formPage;
 
     @BeforeClass
     public void ConfigureApp() throws MalformedURLException {
@@ -44,7 +47,7 @@ public class BaseTest {
         driver.manage()
             .timeouts()
             .implicitlyWait(Duration.ofSeconds(10));
-
+        formPage = new FormPage(driver);
         service = new AppiumServiceBuilder().withAppiumJS(new File(basePath + "//npm//node_modules//appium//build//lib//main.js"))
             .withIPAddress("127.0.0.1")
             .usingPort(4723)

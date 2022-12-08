@@ -58,7 +58,8 @@ public class FormPage extends AndroidActions {
             .click();
     }
 
-    public void submitForm() {
+    public ProductCatalog submitForm() {
         shopButton.click();
+        return new ProductCatalog(driver);
     }
 }

@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import com.devstromo.pageObjects.android.CartPage;
 import com.devstromo.pageObjects.android.FormPage;
 import com.devstromo.pageObjects.android.ProductCatalog;
 
@@ -204,17 +205,16 @@ public class EcommerceTest extends BaseTest {
 
     @Test(description = "Test Case implementing Page Object Model")
     public void fillFormPOMTCTest() throws InterruptedException {
-        startPage();
-        ProductCatalog productCatalog = new ProductCatalog(driver);
-        productCatalog.addItemToCartByIndex(0);
-        productCatalog.goToCartPage();
+        ProductCatalog productCatalog = startPage();
+        CartPage cartPage = productCatalog.addItemToCartByIndex(0)
+            .goToCartPage();
+
     }
 
-    private void startPage() {
-        FormPage page = new FormPage(driver);
-        page.setNameField("Ale M");
-        page.setGender("female");
-        page.setCountrySelection("Argentina");
-        page.submitForm();
+    private ProductCatalog startPage() {
+        formPage.setNameField("Ale M");
+        formPage.setGender("female");
+        formPage.setCountrySelection("Argentina");
+        return formPage.submitForm();
     }
 }

@@ -26,13 +26,15 @@ public class ProductCatalog extends AndroidActions {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    public void addItemToCartByIndex(int index) {
+    public ProductCatalog addItemToCartByIndex(int index) {
         addToCart.get(0)
             .click();
+        return this;
     }
 
-    public void goToCartPage() throws InterruptedException {
+    public CartPage goToCartPage() throws InterruptedException {
         cart.click();
         Thread.sleep(2000);
+        return new CartPage(driver);
     }
 }
