@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import com.devstromo.pageObjects.android.FormPage;
+import com.devstromo.pageObjects.android.ProductCatalog;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.nativekey.KeyEvent;
@@ -23,11 +24,7 @@ public class EcommerceTest extends BaseTest {
 
     @Test(description = "Test Case in Filling the form details for shopping")
     public void fillFormTCTest() {
-        FormPage page = new FormPage(driver);
-        page.setNameField("Ale M");
-        page.setGender("female");
-        page.setCountrySelection("Argentina");
-        page.submitForm();
+        startPage();
     }
 
     @Test(description = "Verifying toast messages for error validations")
@@ -49,18 +46,7 @@ public class EcommerceTest extends BaseTest {
 
     @Test(description = "Test Case - Scrolling in product list example with Appium Android scroll")
     public void scrollingTCTest() {
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/nameField"))
-            .sendKeys("Ale M");
-        driver.hideKeyboard();
-        driver.findElement(AppiumBy.xpath("//android.widget.RadioButton[@text='Female']"))
-            .click();
-        driver.findElement(AppiumBy.id("android:id/text1"))
-            .click();
-        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
-        driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Argentina']"))
-            .click();
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnLetsShop"))
-            .click();
+        startPage();
         driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Jordan 6 Rings\"));"));
         int productCount = driver.findElements(AppiumBy.id("com.androidsample.generalstore:id/productName"))
             .size();
@@ -83,18 +69,7 @@ public class EcommerceTest extends BaseTest {
 
     @Test(description = "Testcase-Dynamically selecting Product by scanning list based on text")
     public void selectProductDynamicallyTCTest() {
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/nameField"))
-            .sendKeys("Ale M");
-        driver.hideKeyboard();
-        driver.findElement(AppiumBy.xpath("//android.widget.RadioButton[@text='Female']"))
-            .click();
-        driver.findElement(AppiumBy.id("android:id/text1"))
-            .click();
-        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
-        driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Argentina']"))
-            .click();
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnLetsShop"))
-            .click();
+        startPage();
         driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Jordan 6 Rings\"));"));
         int productCount = driver.findElements(AppiumBy.id("com.androidsample.generalstore:id/productName"))
             .size();
@@ -124,18 +99,7 @@ public class EcommerceTest extends BaseTest {
 
     @Test(description = "TestCase - Validating Total amount generated functionality")
     public void validateTotalAmountTCTest() {
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/nameField"))
-            .sendKeys("Ale M");
-        driver.hideKeyboard();
-        driver.findElement(AppiumBy.xpath("//android.widget.RadioButton[@text='Female']"))
-            .click();
-        driver.findElement(AppiumBy.id("android:id/text1"))
-            .click();
-        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
-        driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Argentina']"))
-            .click();
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnLetsShop"))
-            .click();
+        startPage();
         driver.findElements(AppiumBy.xpath("//android.widget.TextView[@text='ADD TO CART']"))
             .get(0)
             .click();
@@ -159,18 +123,7 @@ public class EcommerceTest extends BaseTest {
 
     @Test(description = "TestCase - Validating Mobile Gestures of App ( Tap, Long Press)")
     public void validateGesturesTCTest() {
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/nameField"))
-            .sendKeys("Ale M");
-        driver.hideKeyboard();
-        driver.findElement(AppiumBy.xpath("//android.widget.RadioButton[@text='Female']"))
-            .click();
-        driver.findElement(AppiumBy.id("android:id/text1"))
-            .click();
-        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
-        driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Argentina']"))
-            .click();
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnLetsShop"))
-            .click();
+        startPage();
         driver.findElements(AppiumBy.xpath("//android.widget.TextView[@text='ADD TO CART']"))
             .get(0)
             .click();
@@ -203,18 +156,7 @@ public class EcommerceTest extends BaseTest {
     //TestCase - Automate Hybrid App with context Switch using Chrome Driver
     @Test(description = "TestCase - Handling Web View")
     public void handleWebViewTCTest() throws InterruptedException {
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/nameField"))
-            .sendKeys("Ale M");
-        driver.hideKeyboard();
-        driver.findElement(AppiumBy.xpath("//android.widget.RadioButton[@text='Female']"))
-            .click();
-        driver.findElement(AppiumBy.id("android:id/text1"))
-            .click();
-        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
-        driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Argentina']"))
-            .click();
-        driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnLetsShop"))
-            .click();
+        startPage();
         driver.findElements(AppiumBy.xpath("//android.widget.TextView[@text='ADD TO CART']"))
             .get(0)
             .click();
@@ -258,5 +200,21 @@ public class EcommerceTest extends BaseTest {
         driver.pressKey(new KeyEvent(BACK));
         // SWITCH TO NATIVE
         driver.context("NATIVE_APP");
+    }
+
+    @Test(description = "Test Case implementing Page Object Model")
+    public void fillFormPOMTCTest() throws InterruptedException {
+        startPage();
+        ProductCatalog productCatalog = new ProductCatalog(driver);
+        productCatalog.addItemToCartByIndex(0);
+        productCatalog.goToCartPage();
+    }
+
+    private void startPage() {
+        FormPage page = new FormPage(driver);
+        page.setNameField("Ale M");
+        page.setGender("female");
+        page.setCountrySelection("Argentina");
+        page.submitForm();
     }
 }
