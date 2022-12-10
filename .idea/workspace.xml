@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e02d0b2-ac70-4f06-93f0-ea9206eade49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/FormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/ProductCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/ProductCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/devstromo/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EcommerceTest.fillFormTCTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EcommerceTest.handleWebViewTCTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="appium-framework-design" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +99,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.devstromo" />
       <option name="MAIN_CLASS_NAME" value="com.devstromo.EcommerceTest" />
-      <option name="METHOD_NAME" value="fillFormTCTest" />
+      <option name="METHOD_NAME" value="handleWebViewTCTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.EcommerceTest.fillFormPOMTCTest" />
+        <item itemvalue="TestNG.EcommerceTest.handleWebViewTCTest" />
         <item itemvalue="TestNG.EcommerceTest.scrollingTCTest" />
         <item itemvalue="TestNG.EcommerceTest.verifyToastMessagesTCTest" />
         <item itemvalue="TestNG.EcommerceTest" />
-        <item itemvalue="TestNG.EcommerceTest.fillFormTCTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +165,9 @@
       <workItem from="1670376299181" duration="469000" />
       <workItem from="1670377090815" duration="3679000" />
       <workItem from="1670455158340" duration="2920000" />
-      <workItem from="1670540864373" duration="2213000" />
+      <workItem from="1670540864373" duration="2278000" />
+      <workItem from="1670631185008" duration="1999000" />
+      <workItem from="1670682885423" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669492810848</created>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670542307076</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implement Page object file for Product Catalogue page with actions part 2">
+      <created>1670543110198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670543110198</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +254,7 @@
     <MESSAGE value="Create Action methods in the Pageobject file to drive into tests" />
     <MESSAGE value="Inherit Android Actions class to page object classes for reusable methods" />
     <MESSAGE value="Implement Page object file for Product Catalogue page with actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Page object file for Product Catalogue page with actions" />
+    <MESSAGE value="Implement Page object file for Product Catalogue page with actions part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Page object file for Product Catalogue page with actions part 2" />
   </component>
 </project>

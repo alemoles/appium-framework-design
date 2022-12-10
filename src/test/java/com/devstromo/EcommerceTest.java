@@ -208,7 +208,11 @@ public class EcommerceTest extends BaseTest {
         ProductCatalog productCatalog = startPage();
         CartPage cartPage = productCatalog.addItemToCartByIndex(0)
             .goToCartPage();
-
+        double sum = cartPage.getProductSum();
+        double totalAmount = cartPage.getTotalAmountDisplayed();
+        assertEquals(sum, totalAmount);
+        cartPage.acceptTermsConditions();
+        cartPage.submitOrder();
     }
 
     private ProductCatalog startPage() {
