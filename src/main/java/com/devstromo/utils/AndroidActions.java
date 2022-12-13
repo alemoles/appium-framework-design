@@ -9,11 +9,12 @@ import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 
-public class AndroidActions {
+public class AndroidActions extends AppiumUtils {
 
     private final AndroidDriver driver;
 
     public AndroidActions(AndroidDriver driver) {
+        super(driver);
         this.driver = driver;
     }
 
@@ -28,10 +29,6 @@ public class AndroidActions {
 
     public void scrollToText(String text) {
         driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"" + text + "\"));"));
-    }
-
-    public double getFormattedAmount(String amount) {
-        return Double.parseDouble(amount.substring(1));
     }
 
     public void longPressAction(WebElement element) {

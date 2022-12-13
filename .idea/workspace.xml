@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e02d0b2-ac70-4f06-93f0-ea9206eade49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/utils/AppiumUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devstromo/utils/AndroidActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/utils/AndroidActions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WORK/PROYECTOS/UDEMY/appium-mobile-testing/appium-framework-design/src/test/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alejamdro/Exercism/java/difference-of-squares&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -167,7 +167,8 @@
       <workItem from="1670455158340" duration="2920000" />
       <workItem from="1670540864373" duration="2278000" />
       <workItem from="1670631185008" duration="1999000" />
-      <workItem from="1670682885423" duration="1083000" />
+      <workItem from="1670682885423" duration="1269000" />
+      <workItem from="1670889800346" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669492810848</created>
@@ -239,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670543110198</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implement Page object file for Product Catalogue page with actions part 3">
+      <created>1670684628361</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670684628361</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +263,7 @@
     <MESSAGE value="Inherit Android Actions class to page object classes for reusable methods" />
     <MESSAGE value="Implement Page object file for Product Catalogue page with actions" />
     <MESSAGE value="Implement Page object file for Product Catalogue page with actions part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Page object file for Product Catalogue page with actions part 2" />
+    <MESSAGE value="Implement Page object file for Product Catalogue page with actions part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Page object file for Product Catalogue page with actions part 3" />
   </component>
 </project>
