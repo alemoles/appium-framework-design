@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="End to End Framework Test">
+        <classes>
+            <class name="com.devstromo.EcommerceTest">
+                <methods>
+                    <include name="fillFormTCTest"/>
+                    <include name="verifyToastMessagesTCTest"/>
+                    <include name="scrollingTCTest"/>
+                    <include name="selectProductDynamicallyTCTest"/>
+                    <include name="validateTotalAmountTCTest"/>
+                    <include name="validateGesturesTCTest"/>
+                    <include name="handleWebViewTCTest"/>
+                    <include name="fillFormPOMTCTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="End to End Framework Test Second">
+        <classes>
+            <class name="com.devstromo.EcommerceTestTC2">
+                <methods>
+                    <include name="fillFormErrorValidationTCTest"/>
+                    <include name="fillFormPositiveFlowTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
