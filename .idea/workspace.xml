@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e02d0b2-ac70-4f06-93f0-ea9206eade49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTestTC2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTestTC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTestTC2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +52,8 @@
       <recent name="D:\WORK\PROYECTOS\UDEMY\appium-mobile-testing\appium-framework-design\src\test\java\com\devstromo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EcommerceTest.fillFormPOMTCTest">
-    <configuration name="EcommerceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.EcommerceTestTC2.fillFormErrorValidationTCTest">
+    <configuration name="EcommerceTestTC2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="appium-framework-design" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +62,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.devstromo" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.EcommerceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.EcommerceTestTC2" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcommerceTestTC2.fillFormErrorValidationTCTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="appium-framework-design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devstromo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devstromo" />
+      <option name="MAIN_CLASS_NAME" value="com.devstromo.EcommerceTestTC2" />
+      <option name="METHOD_NAME" value="fillFormErrorValidationTCTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -124,31 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EcommerceTest.verifyToastMessagesTCTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="appium-framework-design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devstromo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.devstromo" />
-      <option name="MAIN_CLASS_NAME" value="com.devstromo.EcommerceTest" />
-      <option name="METHOD_NAME" value="verifyToastMessagesTCTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EcommerceTestTC2.fillFormErrorValidationTCTest" />
+        <item itemvalue="TestNG.EcommerceTestTC2" />
         <item itemvalue="TestNG.EcommerceTest.fillFormPOMTCTest" />
         <item itemvalue="TestNG.EcommerceTest.handleWebViewTCTest" />
         <item itemvalue="TestNG.EcommerceTest.scrollingTCTest" />
-        <item itemvalue="TestNG.EcommerceTest.verifyToastMessagesTCTest" />
-        <item itemvalue="TestNG.EcommerceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,8 @@
       <workItem from="1670631185008" duration="1999000" />
       <workItem from="1670682885423" duration="1269000" />
       <workItem from="1670889800346" duration="1986000" />
-      <workItem from="1670972836028" duration="2349000" />
+      <workItem from="1670972836028" duration="2421000" />
+      <workItem from="1671060483479" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669492810848</created>
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670976983428</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implement Test Strategy on deciding how to run tests in a file">
+      <created>1670977640311</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670977640311</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
