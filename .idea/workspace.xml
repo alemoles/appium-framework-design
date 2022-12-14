@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e02d0b2-ac70-4f06-93f0-ea9206eade49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/utils/AppiumUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/devstromo/utils/AndroidActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/utils/AndroidActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alejamdro/Exercism/java/difference-of-squares&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alejamdro/Exercism/java/perfect-numbers&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -168,7 +167,8 @@
       <workItem from="1670540864373" duration="2278000" />
       <workItem from="1670631185008" duration="1999000" />
       <workItem from="1670682885423" duration="1269000" />
-      <workItem from="1670889800346" duration="1041000" />
+      <workItem from="1670889800346" duration="1986000" />
+      <workItem from="1670972836028" duration="1491000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669492810848</created>
@@ -247,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670684628361</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implement Appium Utils class which will be the super class of Android &amp; IOS">
+      <created>1670890854854</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670890854854</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +271,7 @@
     <MESSAGE value="Implement Page object file for Product Catalogue page with actions" />
     <MESSAGE value="Implement Page object file for Product Catalogue page with actions part 2" />
     <MESSAGE value="Implement Page object file for Product Catalogue page with actions part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Page object file for Product Catalogue page with actions part 3" />
+    <MESSAGE value="Implement Appium Utils class which will be the super class of Android &amp; IOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Appium Utils class which will be the super class of Android &amp; IOS" />
   </component>
 </project>
