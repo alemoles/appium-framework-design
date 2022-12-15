@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.devstromo.utils.AndroidActions;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -61,5 +62,11 @@ public class FormPage extends AndroidActions {
     public ProductCatalog submitForm() {
         shopButton.click();
         return new ProductCatalog(driver);
+    }
+
+    public void setActivity() {
+        //screen to home page
+        Activity activity = new Activity("com.androidsample.generalstore", "com.androidsample.generalstore.MainActivity");
+        driver.startActivity(activity);
     }
 }

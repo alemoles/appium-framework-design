@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e02d0b2-ac70-4f06-93f0-ea9206eade49" name="Changes" comment="Implement Data driven testing to testng tests using Data provider">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTestTC1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5e02d0b2-ac70-4f06-93f0-ea9206eade49" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devstromo/pageObjects/android/FormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTestTC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/devstromo/EcommerceTestTC1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,7 @@
       <workItem from="1670972836028" duration="2421000" />
       <workItem from="1671060483479" duration="1350000" />
       <workItem from="1671061862499" duration="380000" />
-      <workItem from="1671145949472" duration="686000" />
+      <workItem from="1671145949472" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669492810848</created>
@@ -285,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671062181498</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Implement Data driven testing to testng tests using Data provider">
+      <created>1671146643821</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671146643821</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +313,7 @@
     <MESSAGE value="Implement Test Strategy on deciding how to run tests in a file" />
     <MESSAGE value="Implement Test Setup &amp; Test tear down methods for each Test method" />
     <MESSAGE value="How to run all tests together using Single TestNG.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="How to run all tests together using Single TestNG.xml file" />
+    <MESSAGE value="Implement Data driven testing to testng tests using Data provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Data driven testing to testng tests using Data provider" />
   </component>
 </project>
